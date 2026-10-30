@@ -14,8 +14,7 @@ url: rafizajarin01
 # on GitHub Pages it is your github repository's name prefixed with a /
 baseurl: fdhc-demo
 # location of code, the full url to your github repository
-source-code: 
-  https://github.com/rafizajarin01/fdhc-demo/blob/main/PASTE_YOUR_GOOGLE_SPREADSHEET_LINK_HERE.txt
+source-code: https://github.com/rafizajarin01/fdhc-demo
 
 ##########
 # SITE SETTINGS
