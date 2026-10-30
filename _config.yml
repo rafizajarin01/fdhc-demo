@@ -9,12 +9,13 @@
 #
 # url is site domain, full URL to the production location of your collection
 # on GitHub Pages follows the pattern username.github.io
-url: https://eugestumm.github.io
+url: rafizajarin01
 # baseurl is path to location on the domain if necessary e.g. /digital/hjccc
 # on GitHub Pages it is your github repository's name prefixed with a /
-baseurl: /CollectionBuilder-Remix
+baseurl: fdhc-demo
 # location of code, the full url to your github repository
-source-code: https://github.com/eugestumm/CollectionBuilder-Remix
+source-code: 
+  https://github.com/rafizajarin01/fdhc-demo/blob/main/PASTE_YOUR_GOOGLE_SPREADSHEET_LINK_HERE.txt
 
 ##########
 # SITE SETTINGS
@@ -38,8 +39,8 @@ author: Euge Stumm
 site_languages:
 - lang_id: 'en'
   lang_display: 'English'
-- lang_id: 'es'
-  lang_display: 'Español'
+- lang_id: 'none'
+  lang_display: 'none'
   lang_site_title: 'CollectionBuilder-Remix: Colección de Demostración'
   lang_site_tagline: Basado en el Archivo Digital de Español No Binario
   lang_site_description: "Esta colección es una demostración pedagógica basada en
@@ -51,10 +52,10 @@ site_languages:
 # Set paths, language ids, and permalinks for pages
 defaults:
 - scope:
-    path: 'es'
+    path: 'none'
   values:
-    permalink: /es/:basename
-    lang: 'es'
+    permalink: /none/:basename
+    lang: 'none'
 - scope:
     path: 'pages'
   values:
